@@ -5,6 +5,38 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
+st.markdown("""
+    <style>
+        /* Set background to black */
+        .stApp {
+            background-color: black !important;
+        }
+        
+        /* Set text color to white */
+        html, body, [class*="st-"] {
+            color: white !important;
+            background-color: black !important;
+        }
+        
+        /* Change input boxes, buttons, and select dropdowns */
+        .stTextInput, .stButton, .stSelectbox, .stSlider, .stCheckbox, .stRadio {
+            background-color: #222 !important;
+            color: white !important;
+            border-radius: 5px;
+        }
+        
+        /* Style the sidebar */
+        .css-1d391kg, .css-18e3th9 {
+            background-color: #111 !important;
+        }
+        
+        /* Style headers */
+        h1, h2, h3, h4, h5, h6 {
+            color: white !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 st.title("Penguin Body Mass Predictor")
 
 st.image('./AI PENGUIN 2.png', caption='Picture made with AI', width=500)
