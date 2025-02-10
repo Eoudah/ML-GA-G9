@@ -12,21 +12,25 @@ st.title("Penguin Body Mass Predictor")
 st.image('./AI PENGUIN 2.png', caption='Picture made with AI', width=500)
 
 st.markdown("""
-	The dataset contains information about different species of penguins. It includes measurements such as bill length, bill depth, flipper length, body mass, and the sex of each penguin.
-	### Problem Statement
-	The objective is to build a regression model to predict a penguin's body mass based on its physical characteristics (bill length, bill depth, flipper length, and species). Understanding these relationships can be useful in biological and ecological studies of penguin populations.
-	Here are a few important questions that you might seek to address:
-	- Is there a relationship between the physical characteristics of penguins and their body mass?
-	- How strong is the relationship between features like bill length, flipper length, and body mass?
-	- Which features contribute the most to predicting a penguin's body mass?
-	- How accurately can we estimate a penguin’s weight using regression?
-	- Is the relationship between these features and body mass linear?	
+    The dataset contains information about different species of penguins. It includes measurements such as bill length, bill depth, flipper length, body mass, and the sex of each penguin.
 
-	### Data Description
-	- **Species:** The species of the penguin (Adelie, Chinstrap, Gentoo).
-	- **Bill Length (mm):** The length of the penguin’s bill (in mm).
-	- **Flipper Length (mm):** The length of the penguin’s flipper (in mm).
-	- **Body Mass (g):** Value we are predicting. The body mass of the penguin (in grams).
+    ### Problem Statement
+    The objective is to build a regression model to predict a penguin's body mass based on its physical characteristics (bill length, bill depth, flipper length, species, and sex). Understanding these relationships can be useful in biological and ecological studies of penguin populations.
+
+    Here are a few important questions that you might seek to address:
+    - Is there a relationship between the physical characteristics of penguins and their body mass?
+    - How strong is the relationship between features like bill length, flipper length, and body mass?
+    - Which features contribute the most to predicting a penguin's body mass?
+    - How accurately can we estimate a penguin’s weight using regression?
+    - Is the relationship between these features and body mass linear?    
+
+    ### Data Description
+    - **Species:** The species of the penguin (Adelie, Chinstrap, Gentoo).
+    - **Bill Length (mm):** The length of the penguin’s bill (in mm).
+    - **Bill Depth (mm):** The depth of the penguin’s bill (in mm).
+    - **Flipper Length (mm):** The length of the penguin’s flipper (in mm).
+    - **Body Mass (g):** Value we are predicting. The body mass of the penguin (in grams).
+    - **Sex:** The sex of the penguin (Male or Female).
 """)
 
 st.image('./Image 3 Penguins.png', caption='The three different species', width=500)
