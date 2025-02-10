@@ -25,7 +25,7 @@ st.markdown("""
 	### Data Description
 	- **Species:** The species of the penguin (Adelie, Chinstrap, Gentoo).
 	- **Bill Length (mm):** The length of the penguin’s bill (in mm).
-	- **Flipper Length (mm):** The length of the penguin’s flipper (in mm).
+	- **Flipper Length (mm):** The length of the penguin’s flipper (in mm). -**Sex**
 	- **Body Mass (g):** Value we are predicting. The body mass of the penguin (in grams).
 """)
 
