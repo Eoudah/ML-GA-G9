@@ -29,8 +29,8 @@ st.markdown("""
     - **Bill Length (mm):** The length of the penguin’s bill (in mm).
     - **Bill Depth (mm):** The depth of the penguin’s bill (in mm).
     - **Flipper Length (mm):** The length of the penguin’s flipper (in mm).
-    - **Body Mass (g):** Value we are predicting. The body mass of the penguin (in grams).
     - **Sex:** The sex of the penguin (Male or Female).
+    - **Body Mass (g):** The body mass of the penguin (in grams). This is the value we are predicting.
 """)
 
 st.image('./Image 3 Penguins.png', caption='The three different species', width=500)
