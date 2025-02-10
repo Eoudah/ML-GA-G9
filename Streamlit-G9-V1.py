@@ -5,7 +5,17 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
+#to make the background black 
+st.set_page_config(page_title="My App", page_icon="🌙", layout="wide")
 
+st.markdown("""
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 st.title("Penguin Body Mass Predictor")
 
