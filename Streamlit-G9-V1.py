@@ -35,10 +35,10 @@ st.markdown("""
 
 st.image('./Image 3 Penguins.png', caption='The three different species', width=500)
 
-#st.sidebar.title("Additional Info")
+st.sidebar.title("Additional Info")
 
-#w1 = st.sidebar.checkbox("Dataset", False)
-#plothist= st.sidebar.checkbox("Histograms", False)
+w1 = st.sidebar.checkbox("Dataset", False)
+plothist= st.sidebar.checkbox("Histograms", False)
 
 
 @st.cache_data
