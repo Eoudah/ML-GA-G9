@@ -29,6 +29,7 @@ st.markdown("""
 	- **Body Mass (g):** Value we are predicting. The body mass of the penguin (in grams).
 """)
 
+st.image('./Image 3 Penguins.png', caption='The three different species', width=500)
 
 #st.sidebar.title("Additional Info")
 
