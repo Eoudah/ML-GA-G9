@@ -42,8 +42,25 @@ plothist= st.sidebar.checkbox("Histograms", False)
 
 
 @st.cache_data
+def read_data():
+    return pd.read_csv("penguins_cleaned.csv")[["species","bill_length_mm","flipper_length_mm", "body_mass_g"]]
 
- # For loading the trained model and scalers
+df=read_data()
+
+if w1:
+	st.markdown(""" ### Dataset 
+    Here is the dataset only with the values we decided to use
+    """)
+	st.dataframe(df,width=2000,height=500)
+if plothist:
+    st.subheader("Distributions of each columns")
+    options = ("species","bill_length_mm","flipper_length_mm", "body_mass_g")
+    sel_cols = st.selectbox("select columns", options,1)
+    st.write(sel_cols)
+    fig = go.Histogram(x=df[sel_cols],nbinsx=50)
+    st.plotly_chart([fig])
+
+# For loading the trained model and scalers
 
 # Load the trained model and scalers
 @st.cache_data
