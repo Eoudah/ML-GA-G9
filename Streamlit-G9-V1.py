@@ -9,6 +9,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 st.title("Penguin Body Mass Predictor")
 
+st.image('./AI PENGUIN 2.png', caption='Picture made with AI', width=500)
 
 st.markdown("""
 	The dataset contains information about different species of penguins. It includes measurements such as bill length, bill depth, flipper length, body mass, and the sex of each penguin.
